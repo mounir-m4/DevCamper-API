@@ -1,18 +1,24 @@
 {
-  "name": "devcamper_api",
-  "version": "1.0.0",
-  "description": "dev camper backend api",
-  "main": "server.js",
-  "scripts": {
-    "start": "SET NODE_ENV=production && node server",
-    "dev": "nodemon server"
-  },
-  "author": "mounir",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.12"
-  },
-  "devDependencies": {}
+	"name": "devcamper_api",
+	"version": "1.0.0",
+	"description": "devcamper backend api",
+	"main": "server.js",
+	"scripts": {
+		"start": "SET NODE_ENV=develompent && node server",
+		"dev": "nodemon server"
+	},
+	"author": "mounir",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.2.1",
+		"mongoose": "^6.0.6",
+		"morgan": "^1.10.0",
+		"node-geocoder": "^3.27.0",
+		"nodemon": "^2.0.12",
+		"slugify": "^1.6.0"
+	},
+	"devDependencies": {}
 }
